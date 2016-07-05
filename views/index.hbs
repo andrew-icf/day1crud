@@ -1,0 +1,25 @@
+<h1>{{title}}</h1>
+
+<form action="index.html" method="post">
+  {{#each list}}
+  <label for="first">1st Item</label>
+  <input name="first">
+  <label for="radio1">Done</label>
+  <input type="radio" name="radio1"><br>
+  <label for="">2nd Item</label>
+  <p>{{this.list_item}}</p>
+  <label for="">3rd Item</label>
+  <p>{{this.list_item}}</p>
+  <label for="">4th Item</label>
+  <p>{{this.list_item}}</p>
+  <label for="">5th Item</label>
+  <p>{{this.list_item}}</p>
+  <label for="">6th Item</label>
+  <p>{{this.list_item}}</p>
+  <label for="">7th Item</label>
+  <p>{{this.list_item}}</p>
+  {{/each}}
+</form>
+
+
+{{this.list_item}}
